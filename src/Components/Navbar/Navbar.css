@@ -1,0 +1,32 @@
+.Navbar__main {
+    margin: 0;
+    padding: 0 10px;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #a8dadc;
+}
+
+.Navbar__title {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar__icon {
+    margin: 0 10px;
+}
+
+.Navbar__contentDiv {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

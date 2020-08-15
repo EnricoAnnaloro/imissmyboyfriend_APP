@@ -1,0 +1,42 @@
+.EventsPage__mainDiv {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.EventsPage__eventsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.EventsPage__EventsSubContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin: 10px auto;
+}
+
+.EventsPage__EventsTitle {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 25px;
+    width: 80%;
+}
+
+.EventsPage__iLoveYou {
+    font-family: 'Pacifico', cursive;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media(min-width: 768px) {
+    .EventsPage__daysCounter {
+        width: 40%;
+    }
+}

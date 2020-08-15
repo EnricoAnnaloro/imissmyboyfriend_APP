@@ -35,9 +35,9 @@ const EventsPage = () => {
         return state.eventsReducer.isFetchingLoading
     });
 
-    // if (!isAuthenticated) {
-    //     history.push('/login');
-    // }
+    if (!isAuthenticated) {
+        history.push('/login');
+    }
 
     useEffect(() => {
         console.log("fetchEvents");

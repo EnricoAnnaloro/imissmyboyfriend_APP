@@ -17,7 +17,7 @@
     cursor: no-drop;
 }
 
-.SpecialEvent__mainDiv h3{
+.SpecialEvent__mainDiv h3 {
     margin: 0;
 }
 
@@ -31,7 +31,11 @@
 
 @media(min-width: 768px) {
     .SpecialEvent__mainDiv {
-        flex-direction: column;
+        flex-direction: row;
+    }
+    .SpecialEvent__mainDiv h3 {
+        width: 40%;
+        text-align: center;
     }
     .SpecialEvent__withPointer:hover {
         background-color: #a8dadc;

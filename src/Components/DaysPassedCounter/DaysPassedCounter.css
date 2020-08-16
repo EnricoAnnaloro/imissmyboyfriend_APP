@@ -43,4 +43,13 @@
     .DaysPassed__mainDiv {
         width: 60%;
     }
+    .DaysPassed__content {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .DaysPassed__mainDiv .DaysPassed__content{
+        width: 60%;
+    }
 }

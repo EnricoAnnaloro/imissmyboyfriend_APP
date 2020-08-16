@@ -1,0 +1,9 @@
+Username: Little_JuJuBe
+Password: Imissmyboyfriendtoday
+
+First Deploy - DONE
+Fix Login Form for mobile
+Fix full screen for youtube video
+Fix pdf 
+See how to add audio and images
+Make content

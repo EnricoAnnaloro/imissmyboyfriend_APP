@@ -30,3 +30,19 @@
     align-items: center;
     justify-content: center;
 }
+
+@media(min-width: 1024px) {
+    .Navbar__title:hover {
+        animation: Navbar__title_Animation 10s ease-in-out;
+        letter-spacing: 30px;
+    }
+}
+
+@keyframes Navbar__title_Animation {
+    0% {
+        letter-spacing: 2px;
+    }
+    100% {
+        letter-spacing: 30px;
+    }
+}

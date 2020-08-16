@@ -35,8 +35,92 @@
     font-size: 30px;
 }
 
+.EventsPage__loaderDiv {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.EventsPage__loader {
+    animation: EventsPage__loader__Animation 3s ease-in-out infinite;
+}
+
+.EventsPage__SpecialIcon {
+    animation: EventsPage__SpecialIcon_Animation 1s ease-in-out infinite;
+}
+
+.EventsPage__dailyIconLeft {
+    animation: EventsPage__dailyIconLeft_Animation 2s ease-in-out infinite;
+}
+
+.EventsPage__dailyIconRight {
+    animation: EventsPage__dailyIconRight_Animation 2s ease-in-out infinite;
+}
+
 @media(min-width: 768px) {
     .EventsPage__daysCounter {
         width: 40%;
+    }
+}
+
+@keyframes EventsPage__loader__Animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes EventsPage__SpecialIcon_Animation {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes EventsPage__dailyIconLeft_Animation {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(-5px) rotate(-25deg);
+    }
+    50% {
+        transform: translateX(0) rotate(0deg);
+    }
+    75% {
+        transform: translateX(-5px) rotate(-25deg);
+    }
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+@keyframes EventsPage__dailyIconRight_Animation {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(5px) rotate(25deg);
+    }
+    50% {
+        transform: translateX(0) rotate(0deg);
+    }
+    75% {
+        transform: translateX(5px) rotate(25deg);
+    }
+    100% {
+        transform: translateX(0) rotate(0deg);
     }
 }
